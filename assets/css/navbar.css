@@ -1,0 +1,44 @@
+nav {
+  background-color: #faf8f8;
+  display: flex;
+  height: 8vh;
+}
+
+
+.nav-left {
+  display: flex;
+  flex: 50%;
+  padding-left: 100px;
+  align-items: center;
+}
+nav .nav-left li {
+  display: inline;
+}
+nav .nav-left a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  font-weight: bold;
+}
+nav .nav-left a:hover {
+  color: grey;
+  font-size: 16px;
+}
+
+
+
+.nav-right {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+nav .nav-right a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 10px;
+}
+
